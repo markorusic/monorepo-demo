@@ -10,9 +10,13 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run dev",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "lint": "lerna run lint"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
     "lerna": "^3.22.1"
   }
 }
