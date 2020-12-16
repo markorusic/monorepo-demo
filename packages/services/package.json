@@ -1,0 +1,21 @@
+{
+  "name": "@demo/services",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Marko Rusic <markousp5@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@demo/types": "0.0.1",
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
