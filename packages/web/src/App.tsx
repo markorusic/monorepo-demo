@@ -1,3 +1,4 @@
+import React from "react";
 import { postService } from "@demo/services";
 import { Post } from "@demo/types";
 import { useQuery } from "react-query";
@@ -14,7 +15,7 @@ const PostList: React.FC<PostListProps> = ({ posts }) => {
   );
 };
 
-function App() {
+const App = () => {
   const postsQuery = useQuery("posts", postService.fetchPosts);
   return (
     <div>
@@ -22,6 +23,6 @@ function App() {
       {postsQuery.data && <PostList posts={postsQuery.data} />}
     </div>
   );
-}
+};
 
 export default App;
