@@ -1,4 +1,4 @@
-import { postService } from "../../services/dist";
+import { postService } from "@demo/services";
 
 const run = async () => {
   console.log("fetching posts...");
